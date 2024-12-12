@@ -1,0 +1,39 @@
+.body{
+    background-color:#FFFAFA;
+}
+
+.containerl1{
+    background-color: #E9E9E9;
+    margin: auto;
+    width: 600px;
+}
+
+.linha1 {
+    padding: 20px;
+}
+
+.linha1 h2{
+    color:#006A6A;
+}
+
+.linha1 h3{
+    color:#008989;
+}
+
+
+.containerl2 {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.Primeiro{
+    background-color:#006A6A;
+    color:#FFFAFA;
+}
+
+.Segundo {
+    background-color:#008989;
+    color:#FFFAFA;
+    
+}
