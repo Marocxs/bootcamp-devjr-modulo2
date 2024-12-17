@@ -89,18 +89,20 @@
     background-color: #008989;
     color: #FFFAFA;
     width: 50%;
-    padding: 20px;
+    font-weight: normal;
+    padding: 10px 20px;
 }
 
 .benefits-title {
-    font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .benefits-list {
-    padding: 10px 0;
+    margin-left: 40px;
 }
 
-.benefits-list li {
-    font-size: 16px;
+.image {
+    text-align: center;
 }
