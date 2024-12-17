@@ -1,56 +1,106 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 .body {
-    background-color:#FFFAFA;
+    background-color: #FFFAFA;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
-.container-assinatura{
+.subscription-container {
     background-color: #E9E9E9;
     margin: auto;
     width: 600px;
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    overflow: hidden;
 }
 
-.container-linha1 {
+.header-section {
     padding: 40px;
 }
 
-.titulo{
-    color:#006A6A;
+.main-title {
+    color: #006A6A;
     font-size: 32px;
     font-weight: 700;
 }
 
-.subtitulo1{
-    color:#008989;
+.discount-title {
+    color: #008989;
     margin: 20px 0px 15px 0px;
 }
 
-.subtitulo2{
-    
-}
-
-
-.container-linha2 {
+.details-section {
     display: flex;
-    padding: 20px;
     justify-content: space-around;
 }
 
-.Primeiro{
-    background-color:#006A6A;
-    color:#FFFAFA;
+.monthly-plan {
+    background-color: #006A6A;
+    color: #FFFAFA;
+    width: 50%;
+    padding: 20px;
 }
 
-.Segundo {
-    background-color:#008989;
-    color:#FFFAFA;
-    
+.plan-title {
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price-value {
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+
+.price-detail {
+    font-weight: normal;
+    margin-left: 15px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.cancel-info {
+    font-weight: normal;
+}
+
+.subscribe-button {
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #006A6A;
+    width: 100%;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.subscribe-button:hover{
+    background-color: #fff;
+}
+
+.benefits-container {
+    background-color: #008989;
+    color: #FFFAFA;
+    width: 50%;
+    padding: 20px;
+}
+
+.benefits-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.benefits-list {
+    padding: 10px 0;
+}
+
+.benefits-list li {
+    font-size: 16px;
 }
