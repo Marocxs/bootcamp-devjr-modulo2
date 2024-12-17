@@ -1,27 +1,44 @@
-.body{
-    background-color:#FFFAFA;
+* {
+    margin: 0;
+    padding: 0;
+    
 }
 
-.containerl1{
+.body {
+    background-color:#FFFAFA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container-assinatura{
     background-color: #E9E9E9;
     margin: auto;
     width: 600px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
-.linha1 {
-    padding: 20px;
+.container-linha1 {
+    padding: 40px;
 }
 
-.linha1 h2{
+.titulo{
     color:#006A6A;
+    font-size: 32px;
+    font-weight: 700;
 }
 
-.linha1 h3{
+.subtitulo1{
     color:#008989;
+    margin: 20px 0px 15px 0px;
+}
+
+.subtitulo2{
+    
 }
 
 
-.containerl2 {
+.container-linha2 {
     display: flex;
     padding: 20px;
     justify-content: space-around;
